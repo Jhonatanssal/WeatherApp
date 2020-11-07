@@ -4,9 +4,9 @@
 
 > This project was created in order to practice and learn basic frontend using JavaScript and DOM.
 
-![screenshot](./img/app_screenshot.png)
+![screenshot](./app_screenshot.png)
 
-It was built completely using only HTML and JavaScript, this app changes a counter each time a user clicks in the different buttons.
+It was built completely using only HTML and JavaScript changes the Background color every time the user clicks the button.
 
 ## Built With
 
@@ -16,15 +16,21 @@ It was built completely using only HTML and JavaScript, this app changes a count
 
 ## Live Demo
 
-[Live Demo Link](https://jssarrazolaa.github.io/Counter/)
+[Live Demo Link](https://jssarrazolaa.github.io/WeatherApp/)
 
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example step:
 
-- Get a copy of the repo by copying this command `git clone https://github.com/jssarrazolaa/Counter.git`
-and running it into the terminal. 
+- Get a copy of the repo by copying this command `git clone https://github.com/jssarrazolaa/WeatherApp.git`
+and running it into the terminal.
+
+- Run `npm install` in your terminal.
+
+- Run `npm run start` to start the local server.
+
+- Finally go to `http://localhost:8080/dist/` and you will be able to interact with the app there.
 
 ### Prerequisites
 
@@ -46,7 +52,7 @@ and running it into the terminal.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jssarrazolaa/Counter/issues).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/WeatherApp/issues).
 
 ## Show your support
 
