@@ -10,7 +10,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  background: linear-gradient(rgb(142, 171, 175), rgb(57, 66, 119));
   font-family: sans-serif;
   color: white;
 }
@@ -18,7 +18,6 @@ body {
 .location,
 .temperature {
   height: 30vh;
-  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -26,6 +25,7 @@ body {
 
 #icon {
   color: white;
+  width: 150px;
 }
 
 .temperature {
