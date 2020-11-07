@@ -2,64 +2,51 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> This project was created in order to practice and learn basic frontend using JavaScript and DOM.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/app_screenshot.png)
 
-Additional description about the project and its features.
+It was built completely using only HTML and JavaScript, this app changes a counter each time a user clicks in the different buttons.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- Bootstrap
+- HTML
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jssarrazolaa.github.io/Counter/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running follow these simple example step:
 
-
-To get a local copy up and running follow these simple example steps.
+- Get a copy of the repo by copying this command `git clone https://github.com/jssarrazolaa/Counter.git`
+and running it into the terminal. 
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Nodejs
+- VSCode
+- Eslint
+- Stylelintrc
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@jssarrazolaa](https://github.com/jssarrazolaa)
+- Twitter: [@StevenAlvarez_](https://twitter.com/StevenAlvarez_)
+- LinkedIn: [Jhonatan Sarrazola](https://www.linkedin.com/in/jhonatansarrazola/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/Counter/issues).
 
 ## Show your support
 
@@ -67,9 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- FreeCodeCamp
+- Microverse
 
 ## 📝 License
 
