@@ -12,9 +12,13 @@ window.addEventListener('load', () => {
   button.addEventListener('click', (e) => {
     e.preventDefault();
 
+    const form = document.getElementById('form');
+
     const city = document.getElementById('city').value;
 
     const api = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=96167910369f1228a67e094ac8e334b6`;
+
+    form.reset();
 
     fetch(api)
       .then(response => response.json())
@@ -29,13 +33,12 @@ window.addEventListener('load', () => {
         locationTimeZone.textContent = data.name;
         icon.src = `http://openweathermap.org/img/wn/${iconImg}@2x.png`;
       })
-      .catch(data => {
-        console.log(data);
+      .catch(() => {
         const container = document.querySelector('.weather-cont');
         const errorDiv = document.createElement('h1');
         errorDiv.textContent = 'Please enter a valid city';
 
         container.appendChild(errorDiv);
-      })
+      });
   });
 });
